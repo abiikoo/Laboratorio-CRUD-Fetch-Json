@@ -1,0 +1,173 @@
+/* ================================
+   ESTILOS GENERALES DEL SITIO
+   ================================ */
+
+body {
+    background: linear-gradient(135deg, #d8c7f7, #f3e9ff);
+    min-height: 100vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Texto principal */
+h1 {
+    color: #5b2ca8;
+    font-weight: 700;
+    text-shadow: 0 1px 2px rgba(0,0,0,0.1);
+}
+
+/* Tarjetas de contenido (formularios, tablas, etc.) */
+.container {
+    background: #ffffffd6;
+    border-radius: 18px;
+    padding: 30px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.15);
+}
+
+/* ================================
+   FORMULARIO
+   ================================ */
+
+.form-label {
+    font-weight: 600;
+    color: #4a148c;
+}
+
+input.form-control {
+    border: 2px solid #c7a4ff;
+    border-radius: 10px;
+    transition: 0.3s;
+}
+
+input.form-control:focus {
+    border-color: #7e57c2;
+    box-shadow: 0 0 8px rgba(126, 87, 194, 0.6);
+}
+
+/* Botones principales */
+.btn-primary {
+    background-color: #7e57c2;
+    border-color: #6a39b3;
+    font-weight: bold;
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+.btn-primary:hover {
+    background-color: #6a39b3;
+}
+
+.btn-secondary {
+    background-color: #9e9e9e;
+    border-color: #757575;
+    padding: 10px 18px;
+    border-radius: 10px;
+}
+.btn-secondary:hover {
+    background-color: #757575;
+}
+
+.btn-danger {
+    border-radius: 10px;
+    padding: 10px 18px;
+}
+
+/* Botón Buscar */
+.btn-success {
+    background-color: #7cb342;
+    border-color: #689f38;
+    border-radius: 10px;
+    padding: 10px 18px;
+}
+.btn-success:hover {
+    background-color: #689f38;
+}
+
+/* Botón Ver todos */
+.btn-outline-secondary {
+    border-radius: 10px;
+    padding: 10px 18px;
+}
+
+/* ================================
+   TABLA
+   ================================ */
+
+.table {
+    background: white;
+    border-radius: 15px;
+    overflow: hidden;
+    border: 2px solid #c7a4ff;
+}
+
+.table th {
+    background-color: #9575cd;
+    color: white;
+    font-weight: 600;
+    border-bottom: none;
+}
+
+.table td {
+    vertical-align: middle;
+    font-weight: 500;
+}
+
+/* Botón Editar */
+.btn-warning {
+    background-color: #ffb300;
+    border-color: #ff8f00;
+    font-weight: bold;
+    border-radius: 8px;
+}
+.btn-warning:hover {
+    background-color: #ff8f00;
+}
+
+/* Renglones alternos */
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color: #f8f4ff;
+}
+
+/* ================================
+   INPUT DE BÚSQUEDA
+   ================================ */
+
+#txtBuscar {
+    border: 2px solid #ba9ffb;
+    border-radius: 12px;
+    transition: .3s;
+}
+
+#txtBuscar:focus {
+    border-color: #7e57c2;
+    box-shadow: 0 0 8px rgba(126, 87, 194, 0.6);
+}
+
+/* ================================
+   BOTÓN ELIMINAR
+   ================================ */
+
+.btn-danger {
+    background-color: #d32f2f;
+    border-color: #b71c1c;
+}
+.btn-danger:hover {
+    background-color: #b71c1c;
+}
+
+/* ================================
+   ANIMACIONES
+   ================================ */
+
+.container {
+    animation: fadeIn .6s ease-in-out;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(15px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
